@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17284" started-at="2019-04-10T05:00:47Z" finished-at="2019-04-10T05:01:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17284" started-at="2019-04-10T05:00:47Z" finished-at="2019-04-10T05:01:04Z">
+      <class name="com.tests.NewTest8">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.NewTest8@3cb5cdba]" name="beforeTest" is-config="true" duration-ms="13397" started-at="2019-04-10T10:30:47Z" finished-at="2019-04-10T10:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.116.17.101:8474/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testValidData(java.lang.String, java.lang.String)[pri:0, instance:com.tests.NewTest8@3cb5cdba]" name="testValidData" duration-ms="1815" started-at="2019-04-10T10:31:01Z" data-provider="dp1" finished-at="2019-04-10T10:31:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krisj123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kri1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidData -->
+        <test-method status="PASS" signature="testValidData(java.lang.String, java.lang.String)[pri:0, instance:com.tests.NewTest8@3cb5cdba]" name="testValidData" duration-ms="1277" started-at="2019-04-10T10:31:02Z" data-provider="dp1" finished-at="2019-04-10T10:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nami1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nam1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidData -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.NewTest8@3cb5cdba]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-04-10T10:31:04Z" finished-at="2019-04-10T10:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest8 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

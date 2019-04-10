@@ -1,0 +1,8 @@
+[
+	{
+		"users": {"email": "askmail@email.com","password": "abc123","phoneno":["534534534","454646547"]}
+	},
+	{
+		"users": {"email": "askmail@ymail.com","password": "abc123","phoneno":["234234234","432432211"]}
+	}
+]
